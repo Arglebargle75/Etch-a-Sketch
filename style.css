@@ -1,0 +1,17 @@
+html, body{min-height:100%;}
+body {height:100vh;}
+.vertical-container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.column {
+	border: 0.5px solid black;
+	flex: 1;
+	display: flex;
+	
+}
+.row {
+	border: 0.5px solid black;
+	flex: 1;
+}
